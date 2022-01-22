@@ -1,7 +1,6 @@
 algoritmo "Somador de dois números"
 var
-   n1:real
-   n2:real
+   n1,n2:real
 inicio
       escreval("Somador V 1.0")
       escreval()
