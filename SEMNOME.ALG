@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "Teste de operadores relacionais e lógicos"
 var
    a,b,c:inteiro
 inicio
