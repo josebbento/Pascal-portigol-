@@ -10,9 +10,16 @@ inicio
       escreva("Insira o tamanho do terceiro lado do triangulo: ")
       leia(l3)
       
-      equilatero<-l1 = l2 e l1 = l3
-      isosceles<-((l1 = l2) e (l1 <> l3)) ou ((l1 = l3) e (l1 <> l2)) ou ((l2 = l3) e (l1 <> l3))
-      escaleno<-l1 <> l2 e l1 <> l3 e l2 <> l3
+      equilatero<-(l1 = l2) e (l1 = l3)
+      isosceles<-(l1 = l2) ou (l1 = l3) ou (l2 = l3)
+      escaleno<-(l1 <> l2) e (l1 <> l3) e (l2 <> l3)
+      
+      escreval()
+      escreval()
+      escreval("RESULTADO:")
+      escreval()
+      escreval()
+      escreval()
       
       escreval("O triangulo é equinatero? ",equilatero)
       escreval("O triangulo é isosceles? ",isosceles)
