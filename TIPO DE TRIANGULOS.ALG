@@ -1,4 +1,4 @@
-algoritmo "Tipo de Triangulos"
+algoritmo "Tipo de Triângulos"
 var
    l1,l2,l3:real
    equilatero,isosceles,escaleno:logico
