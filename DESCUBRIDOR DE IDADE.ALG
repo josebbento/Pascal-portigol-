@@ -1,6 +1,6 @@
 algoritmo "descubridor de idade"
 var
-   ano_atual,ano_nasci,idade:real
+   ano_atual,ano_nasci,idade:inteiro
 inicio
       escreva("Em que ano estamos? ")
       leia(ano_atual)
