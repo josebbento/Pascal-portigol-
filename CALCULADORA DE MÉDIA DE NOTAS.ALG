@@ -24,8 +24,4 @@ inicio
       escreval("O ALUNO ESTÁ: ",r)
       
       escreval("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=")
-      
-      
-      
-      
 fimalgoritmo
