@@ -13,11 +13,11 @@ inicio
 
       se imc < 18.5 entao
          escreva("Você está leve demais")
-      fimse
-      se ((imc >= 18.8) e (imc <= 25)) entao
-         escreva("Você está dentro do peso ideal")
-      fimse
-      se imc > 25 entao
-         escreva("Você está pesado demais")
+      senao
+         se imc <= 25 entao
+            escreva("Você está dentro do peso ideal")
+         senao
+            escreva("Você está pesado demais")
+         fimse
       fimse
 fimalgoritmo
