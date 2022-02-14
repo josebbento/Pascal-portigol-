@@ -8,5 +8,6 @@ inicio
                c <- c - 1
       fimenquanto
       escreval()
+      escreval("fim de programa")
       escreval("obrigado por testar o prgrama")
 fimalgoritmo
