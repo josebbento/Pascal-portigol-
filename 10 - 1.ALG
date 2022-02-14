@@ -7,5 +7,6 @@ inicio
                escreva(c)
                c <- c - 1
       fimenquanto
+      escreval()
       escreval("obrigado por testar o prgrama")
 fimalgoritmo
