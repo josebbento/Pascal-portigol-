@@ -7,7 +7,6 @@ inicio
             escreva("Escreva um número: ")
             leia(n)
 
-
             se n < 0 entao
                c1 <- c1 + 1
                s1 <- s1 + n
@@ -27,6 +26,8 @@ inicio
             leia(r)
             
       ate (r = "n") ou (r = "N")
+      
+      
       escreval("----------------------------------------")
       escreval("Soma dos números positivos: ",s3)
       escreval("----------------------------------------")
