@@ -1,6 +1,6 @@
 algoritmo "semnome"
 var
-   n,c:inteiro
+   n,c:real
 inicio
       escreva("Insira um número: ")
       leia(n)
