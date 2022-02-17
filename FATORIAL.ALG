@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "fatiral"
 var
    n,c:real
 inicio
