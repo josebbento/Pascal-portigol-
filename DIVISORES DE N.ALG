@@ -6,7 +6,7 @@ inicio
 
       escreva("Insira um número: ")
       leia(n)
-      escreval("divisores de",n,":")
+      escreval("divisores de ",n,":")
       repita
             c<-c+1
             se (n % c = 0) entao
