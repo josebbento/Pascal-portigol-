@@ -33,9 +33,15 @@ inicio
       escreval("----------------------------------------")
       escreval("Soma dos números negativos: ",s1)
       escreval("----------------------------------------")
-      escreval("Média dos números positivos: ",s3/c3)
-      escreval("----------------------------------------")
-      escreval("Média dos números negativos: ",s1/c1)
+      se c3 > 0 entao
+            escreval("Média dos números positivos: ",s3/c3:1:2)
+            escreval("----------------------------------------")
+      fimse
+      se c1 > 0 entao
+            escreval("Média dos números negativos: ",s1/c1:1:2)
+            escreval("----------------------------------------")
+      fimse
+      escreval("Quantidade de números: ",c3+c2+c1)
       escreval("----------------------------------------")
       escreval("Quantidade de números positivos: ",c3)
       escreval("----------------------------------------")
