@@ -1,18 +1,20 @@
-algoritmo "Sequência de Fibonacci"
+algoritmo "sequência de fibonacci"
 var
-   n1,n2,n3,f:real
+   n1,n2,c:real
+procedimento fibonacci(var n11,n12:real)
+inicio
+      n11<-n11+n12
+      escreval(n11)
+      n12<-n11+n12
+      escreval(n12)
+fimprocedimento
 inicio
       n1<-0
+      escreval(n1)
       n2<-1
-      n3<-0
-      f<-0
-      
-      enquanto (f=0) faça
-               n1<-n2+n3
-               escreval(n1)
-               n2<-n1+n3
-               escreval(n2)
-               n3<-n1+n2
-               escreval(n3)
-      fimenquanto
+      escreval(n2)
+      repita
+            fibonacci(n1,n2)
+            c<-2+c
+      ate (c=1474)
 fimalgoritmo
