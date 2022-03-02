@@ -7,6 +7,7 @@ var
    s:inteiro
 inicio
       s<-a+b
+      retorne s
 fimfuncao
 
 inicio
