@@ -18,18 +18,19 @@ inicio
       
       escreval("A primeira letra: ",copia(maiusc(n),1,1))
       separa
+      
       escreval("A ultima letra: ",copia(maiusc(n),compr(n),1))
       separa
       
       escreval("Seu n em maiusculo: ",maiusc(n))
       separa
       
-      se nï¿½o (n = minusc(n)) entï¿½o
+      se não (n = minusc(n)) então
          escreval("Seu n em minusculo: ",minusc(n))
          separa
       fimse
       
-      para c <-compr(n) atï¿½ 1 passo -1 faï¿½a
+      para c <-compr(n) até 1 passo -1 faça
            escreva(copia(maiusc(n),c,1))
       fimpara
 fimalgoritmo
