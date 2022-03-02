@@ -4,18 +4,19 @@ var
 
 função fatorial(x:inteiro):inteiro
 var
-   n,f:inteiro
+   n,a:inteiro
+   v:inteiro
 inicio
-   f<-1
+   v<-1
    para n <- 1 ate x faça
-      f<-n*f
-      escreval(f)
+      v<-n*v
    fimpara
-   retorne f
+   retorne v
 fimfunção
 
 inicio
-   escreval("insira um número: ")
+   escreval("insira um número, igual ou menor de 17: ")
    leia(n)
    f<-fatorial(n)
+   escreval(n,"! =",f)
 fimalgoritmo
