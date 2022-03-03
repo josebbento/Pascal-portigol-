@@ -21,7 +21,6 @@ inicio
 
       limpatela
       
-      
       escreval("Nota dos alunos===============================================")
       para c <- 1 ate 4 faça
            escreval(nome[c],", 1ª nota:",(n1[c]):3:1,", 2ª nota:",n2[c]:3:1,", média:",m[c]:3:1)
