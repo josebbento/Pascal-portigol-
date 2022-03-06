@@ -13,6 +13,8 @@ inicio
            fimse
       fimpara
       
+      escreval("----------------------------------------")
+      escreval("pessoas que começam com 'C':")
       para c <- 1 até t faça
            escreva("C")
            escreval(copia( x[c] , 2 , compr(x[c]) ))
