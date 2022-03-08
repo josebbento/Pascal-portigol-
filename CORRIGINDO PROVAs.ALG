@@ -16,7 +16,7 @@ inicio
       escreva("Insira o(a) nome do(a) aluno(a): ")
       leia(nome[c2])
       para c1 <- 1 ate 5 faça
-         escreva("Insira a alternativa inserido(a) pelo(a) ",nome[c2],", na ",c1,"ª questão: ")
+         escreva("Insira a alternativa inserido(a) pelo(a) ",nome[c2],", na ",c1"ª questão: ")
          leia(aluno[c1])
          se (gabarito[c1] = aluno[c1]) então
             n[c2] <- n[c2] + 2
